@@ -5,3 +5,9 @@
 
 <h2>Images</h2>
 
+<div class="row" ng-app="angModule" ng-controller="imgController">
+    <div class="col-md-3" ng-repeat="img in image">
+        <img class="img-thumbnail" ng-src="{{ img }}">
+    </div>
+</div>
+<script src="~/AngExternal.js"></script>
